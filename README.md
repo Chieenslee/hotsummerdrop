@@ -45,6 +45,16 @@ Nếu bạn không muốn tải hay cài đặt Extension, bạn có thể copy 
 5. Đóng mini-game đang mở sẵn (nhấn dấu `X`).
 6. Bấm nút **Play Mini-Game** để thưởng thức!
 
+### 🛡️ Cách 3: Chế độ Bất Tử (Black Hole AFK)
+
+Nếu bạn muốn treo máy hoàn toàn không cần điều khiển, hãy sử dụng **Bản Bất Tử (Hố Đen vũ trụ)**. Nhân vật sẽ đứng yên 1 chỗ và hút toàn bộ đồ vật vào người, tự sát ở mốc an toàn.
+
+1. Vào trang sự kiện PUBG.
+2. Mở `F12` -> tab **Console**.
+3. Mở file [**`immortal.js`**](immortal.js) trên Github, copy toàn bộ code và dán vào Console rồi Enter.
+4. Đóng game đang mở và ấn **Play Mini-Game**.
+5. Muốn dừng Auto: Bấm phím **`K`**.
+
 ---
 
 ## 🎮 Phím điều khiển
