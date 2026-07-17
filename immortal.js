@@ -23,11 +23,14 @@
   var code=await(await fetch(url)).text();
 
   // PATCH 1: BAT TU
-  code=code.replace('Ji=Ki("false")', 'Ji=!0');
+  code=code.replace('setHealth(t){this.playerHealth=t}', 'setHealth(t){this.playerHealth=3}'); // Bản mới
+  code=code.replace('Ji=Ki("false")', 'Ji=!0'); // Bản cũ
 
   // PATCH 2: Trong luc = 0
-  code=code.replace('vt=2600','vt=0');
-  code=code.replace('yt=4e3','yt=0');
+  code=code.replace('vt=2600','vt=0'); // Bản cũ
+  code=code.replace('yt=4e3','yt=0');  // Bản cũ
+  code=code.replace('Et=2600','Et=0'); // Bản mới
+  code=code.replace('At=4e3','At=0');  // Bản mới
 
   // PATCH 3: Toc do x2 (vua phai) de an toan hon voi server
   code=code.replace(/enemySpeedMultiplier:[0-9.]+,/g,'enemySpeedMultiplier:2,');

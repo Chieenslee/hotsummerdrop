@@ -23,10 +23,11 @@
 
   var code=await(await fetch(url)).text();
   
-  // 3. Trọng lực = 0 (lơ lửng)
-  code=code.replace('vt=2600','vt=0');
-  code=code.replace('yt=4e3','yt=0');
-  
+  // 3. Trọng lực = 0 (lơ lửng) - hỗ trợ cả game cũ và mới
+  code=code.replace('vt=2600','vt=0'); // Bản cũ
+  code=code.replace('yt=4e3','yt=0');  // Bản cũ
+  code=code.replace('Et=2600','Et=0'); // Bản mới
+  code=code.replace('At=4e3','At=0');  // Bản mới
   // 4. Tốc độ quái = 100
   code=code.replace(/enemySpeedMultiplier:[0-9.]+,/g,'enemySpeedMultiplier:100,');
 

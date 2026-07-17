@@ -20,13 +20,14 @@
 
     var code=await(await fetch(url)).text();
     
-    // 3. Hack logic
-    code=code.replace('vt=2600','vt=0');
-    code=code.replace('yt=4e3','yt=0');
+    // 3. Hack logic - hỗ trợ bản mới và cũ
+    code=code.replace('vt=2600','vt=0'); // Bản cũ
+    code=code.replace('yt=4e3','yt=0');  // Bản cũ
+    code=code.replace('Et=2600','Et=0'); // Bản mới
+    code=code.replace('At=4e3','At=0');  // Bản mới
+    
+    // Tốc độ NPC x100 để farm điểm siêu tốc
     code=code.replace(/enemySpeedMultiplier:[0-9.]+,/g,'enemySpeedMultiplier:100,');
-    code=code.replace('addScore(10,"dodge")','addScore(100000,"dodge")');
-    code=code.replace('n.groundedElapsed<5e3','n.groundedElapsed<0');
-    code=code.replace('addScore(100,"pickup")','addScore(100000,"pickup")');
     code=code.replace(
       'this.sprite.y+=this.velocityY*l', 
       'window.isHoldingDown&&(this.velocityY=1500),this.sprite.y+=this.velocityY*l'
