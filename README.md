@@ -14,6 +14,13 @@
 
 ---
 
+## 📺 Video Hướng Dẫn
+
+Nếu bạn chưa biết cách làm, hãy xem video hướng dẫn chi tiết tại đây:
+👉 **[Xem Video Hướng Dẫn trên YouTube](https://youtu.be/40kMzEtN1sE?si=_NSvtTA7w64tA4r-)**
+
+---
+
 ## 💻 Hướng dẫn sử dụng (Có 2 cách)
 
 Bạn có thể chọn 1 trong 2 cách dưới đây: **Cài Extension (khuyên dùng)** hoặc **Copy thủ công từ file**.
