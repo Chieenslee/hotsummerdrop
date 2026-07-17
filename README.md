@@ -10,7 +10,7 @@
 
 - **Jetpack Mode (Lơ lửng):** Trọng lực bằng 0, nhảy lên là lơ lửng trên không trung.
 - **Lao Xuống Nhanh:** Nhấn giữ **`S`** hoặc **`Mũi tên Xuống (↓)`** để cắm đầu xuống đất ngay lập tức.
-- **Siêu Farm Điểm (AFK):** Tốc độ NPC rớt xuống cực nhanh (100x), chạm đất là tính điểm luôn (Cộng 20 điểm/mỗi con). Lên Top 1 Server chỉ trong vài giây!
+- **Siêu Farm Điểm (AFK):** Tốc độ NPC rớt xuống cực nhanh (100x), chạm đất là tính điểm luôn (Cộng 20 điểm/mỗi con). Max sự kiện chỉ trong 6 lượt!
 
 ---
 
