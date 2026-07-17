@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "PUBG HOT Drop Hack",
+  "name": "PUBG HOT Drop Support Tool",
   "version": "1.0",
-  "description": "Tự động kích hoạt bản hack Jetpack cho game PUBG HOT Summer Drop.",
+  "description": "Tự động kích hoạt công cụ hỗ trợ cho game PUBG HOT Summer Drop.",
   "content_scripts": [
     {
       "matches": ["*://*.pubg.com/en/events/hotsummerdrop*"],

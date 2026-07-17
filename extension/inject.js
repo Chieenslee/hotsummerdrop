@@ -35,6 +35,6 @@
     var s=document.createElement('script');
     s.textContent=code;
     document.head.appendChild(s);
-    console.log('✅ EXTENSION ĐÃ KÍCH HOẠT HACK! Hãy Play Mini-Game!');
+    console.log('✅ EXTENSION HỖ TRỢ ĐÃ KÍCH HOẠT! Hãy Play Mini-Game!');
   }, 2000); // Chờ 2 giây sau khi vào trang
 })();

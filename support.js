@@ -39,5 +39,5 @@
   var s=document.createElement('script');
   s.textContent=code;
   document.head.appendChild(s);
-  console.log('✅ Đã sửa phím XUỐNG! Đóng game rồi Play lại nhé.');
+  console.log('✅ Đã tải Công cụ Hỗ trợ! Đóng game rồi Play lại nhé.');
 })();
