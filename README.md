@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎮 HOT Drop Rush - Jetpack Hack</h1>
+  <h1>🎮 HOT Drop Rush - Jetpack Support</h1>
   <p><i>Mã Console cho mini-game PUBG HOT Summer Drop</i></p>
   
   [![Star on GitHub](https://img.shields.io/github/stars/Chieenslee/hotsummerdrop.svg?style=social)](https://github.com/Chieenslee/hotsummerdrop/stargazers)
