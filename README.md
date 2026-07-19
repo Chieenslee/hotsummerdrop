@@ -1,69 +1,45 @@
-<div align="center">
-  <h1>🎮 HOT Drop Rush - Auto Support Tool (Chrome Extension)</h1>
-  <p><i>Tiện ích mở rộng tự động HỖ TRỢ Mini-Game PUBG HOT Summer Drop</i></p>
-  
-  [![Star on GitHub](https://img.shields.io/github/stars/Chieenslee/hotsummerdrop.svg?style=social)](https://github.com/Chieenslee/hotsummerdrop/stargazers)
-  [![Follow on GitHub](https://img.shields.io/github/followers/Chieenslee.svg?style=social&label=Follow)](https://github.com/Chieenslee)
-</div>
+# 🚀 Hướng Dẫn Sử Dụng Công Cụ Hỗ Trợ HOT Drop Rush (CHIEENSLEE)
 
-## 🚀 Tính năng của Bản Hỗ Trợ
-
-- **Jetpack Mode (Lơ lửng):** Trọng lực bằng 0, nhảy lên là lơ lửng trên không trung nhấn **` Dấu cách (space)`**.
-- **Lao Xuống Nhanh:** Nhấn giữ **`Mũi tên Xuống (↓)`** để cắm đầu xuống đất ngay lập tức.
-- **Siêu Farm Điểm (AFK):** Tốc độ NPC rớt xuống cực nhanh (100x), chạm đất là tính điểm luôn (Cộng 20 điểm/mỗi con). Max sự kiện chỉ trong 6 lượt!
+Có **2 phương pháp** để sử dụng công cụ Hỗ Trợ. Bạn có thể chọn cách phù hợp với nhu cầu của mình.
 
 ---
 
-## 📺 Video Hướng Dẫn
+## 🌟 CÁCH 1: PHƯƠNG PHÁP MỚI - GỌI TỪ CLOUD (Khuyên Dùng)
 
-Nếu bạn chưa biết cách làm, hãy xem video hướng dẫn chi tiết tại đây:
-👉 **[Xem Video Hướng Dẫn trên YouTube](https://youtu.be/40kMzEtN1sE?si=_NSvtTA7w64tA4r-)**
+Đây là phiên bản **v999** xịn xò nhất, tích hợp giao diện Menu Tím, có tính năng Godmode tự động chơi, bypass thời gian và **bảo mật tuyệt đối** chống soi code.
 
----
+### Các tính năng nổi bật:
+- **UI Bảng Điều Khiển:** Giao diện "Menu Tím" tinh tế ngay trong góc màn hình game.
+- **Godmode (CHIEENSLEE Mode):** Tự động gom vật phẩm, tự bay né bom, tùy chỉnh nhân hệ số điểm (x10 - x20).
+- **Bypass Timer:** Tự động đếm ngược 3 phút an toàn để đánh lừa máy chủ, giải quyết triệt để lỗi mạng `400 Bad Request`.
+- **Bảo Mật Máy Chủ:** Code nguồn được mã hóa siêu bảo mật nhiều lớp và lưu trữ trên hệ thống máy chủ độc lập chống soi code.
 
-## 💻 Hướng dẫn sử dụng (Có 3 cách)
-
-Bạn có thể chọn 1 trong 2 cách dưới đây: **Cài Extension (khuyên dùng)** hoặc **Copy thủ công từ file**.
-
-### 🌟 Cách 1: Cài đặt Chrome Extension (Tự động 100%)
-
-👉 **[Bấm vào đây để tải về Công cụ Hỗ trợ (PUBG_HOT_Drop_Support_Tool.zip)](https://raw.githubusercontent.com/Chieenslee/hotsummerdrop/main/PUBG_HOT_Drop_Support_Tool.zip)**
-
-1. **Giải nén file:** Giải nén file cài đặt ra một thư mục.
-2. **Bật Chế độ Nhà phát triển:** Mở trình duyệt Chrome, truy cập vào đường dẫn `chrome://extensions/` và bật công tắc **"Developer mode" (Chế độ dành cho nhà phát triển)** ở góc trên bên phải.
-3. **Thêm vào Chrome:** Bấm nút **"Load unpacked" (Tải tiện ích đã giải nén)** ở góc trên bên trái -> Chọn thư mục bạn vừa giải nén ở bước 1.
-4. **Trải nghiệm:** Vào trang sự kiện PUBG, đợi 2 giây là tiện ích tự kích hoạt! Đóng game cũ lại và ấn Play Mini-Game.
-
-### ⌨️ Cách 2: Copy thủ công từ file (Dành cho ai không muốn tải)
-
-Nếu bạn không muốn tải hay cài đặt Extension, bạn có thể copy trực tiếp mã nguồn vào F12 Console:
-
-1. Vào trang sự kiện PUBG: [HOT Summer Drop](https://pubg.com/en/events/hotsummerdrop)
-2. Nhấn phím `F12` (hoặc `Ctrl+Shift+I`) để mở **Chrome DevTools**.
-3. Chuyển sang tab **Console**.
-4. Mở file [**`support.js`**](support.js) trên trang Github này, **copy toàn bộ đoạn code** trong đó và dán vào tab Console, sau đó nhấn `Enter`.
-5. Đóng mini-game đang mở sẵn (nhấn dấu `X`).
-6. Bấm nút **Play Mini-Game** để thưởng thức!
-
-### 🛡️ Cách 3: Chế độ Bất Tử (Black Hole AFK)
-
-Nếu bạn muốn treo máy hoàn toàn không cần điều khiển, hãy sử dụng **Bản Bất Tử (Hố Đen vũ trụ)**. Nhân vật sẽ đứng yên 1 chỗ và hút toàn bộ đồ vật vào người, tự sát ở mốc an toàn.
-
-1. Vào trang sự kiện PUBG.
-2. Mở `F12` -> tab **Console**.
-3. Mở file [**`immortal.js`**](immortal.js) trên Github, copy toàn bộ code và dán vào Console rồi Enter.
-4. Đóng game đang mở và ấn **Play Mini-Game**.
-5. Muốn dừng Auto: Bấm phím **`K`**.
+### Cách sử dụng:
+1. Mở game **HOT Drop Rush** trên trình duyệt (PC).
+2. Nhấn `F12` để mở **Developer Tools** và chuyển sang tab **Console**.
+3. Mở file [**`chieenslee_vip_support.js`**](chieenslee_vip_support.js), copy toàn bộ đoạn code trong đó và dán vào Console, sau đó ấn **Enter**:
+   *(Đoạn code cực ngắn, chỉ làm nhiệm vụ gọi file Công Cụ từ máy chủ bảo mật của hệ thống).*
+4. Đóng cửa sổ game đang mở sẵn và bấm nút **Chơi lại**.
+5. Bảng điều khiển màu tím `[CHIEENSLEE]` sẽ tự động xuất hiện. Click **START** để treo máy đi ngủ!
 
 ---
 
-## 🎮 Phím điều khiển
+## 🕹️ CÁCH 2: PHƯƠNG PHÁP CŨ - THỦ CÔNG (Dành cho Dân Try Hard)
 
-| Hành động | Phím | Ghi chú |
-| :--- | :--- | :--- |
-| **Nhảy / Bay Lên** | `W`, `↑`, `Space` | Trọng lực bằng 0 nên sẽ bay lơ lửng |
-| **Lao Xuống** | `S`, `↓` | Dùng để hạ cánh nhanh nhặt đồ |
-| **Trái / Phải** | `A`, `D`, `←`, `→` | Di chuyển sang hai bên |
+Đây là file gốc cũ (`support.js`) để bạn tự chơi bằng tay. Không có Menu Tím, bạn sẽ bay lơ lửng trên mây và dùng nút điều hướng để lao xuống nhặt quà.
+
+### Các tính năng:
+- **Lơ Lửng Vô Cực:** Trọng lực game được chỉnh về `0`, nhân vật bay không rớt.
+- **Giảm Tốc Quái Vật:** Chỉnh hệ số xuất hiện quái (`100`) cho dễ thở.
+- **Lao Xuống Bằng Phím:** Nhấn và giữ nút **Mũi Tên XUỐNG** (hoặc phím **S**) để tăng tốc rơi tự do và lao vào ăn điểm.
+
+### Cách sử dụng:
+1. Mở game **HOT Drop Rush** trên trình duyệt.
+2. Nhấn `F12` để mở **Developer Tools** và chọn tab **Console**.
+3. Mở file [**`support.js`**](support.js) trên trang Github này, **copy toàn bộ đoạn code** trong đó và dán vào tab Console, sau đó nhấn `Enter`.
+4. Thoát giao diện game hiện tại rồi click **Chơi lại**.
+5. Tận hưởng cảm giác tự bay tự lượn trên mây!
 
 ---
-*Nếu thấy công cụ hỗ trợ này hữu ích, đừng quên cho mình xin 1 **Star ⭐** và **Follow** GitHub nhé! Cảm ơn các bạn rất nhiều! ❤️*
+
+**Bản quyền phát triển và thiết kế thuộc về [CHIEENSLEE]. Nghiêm cấm phân phối mã nguồn trái phép.**
